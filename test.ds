@@ -1,0 +1,12 @@
+t:=4
+#rintegrate fib(x) 0 t
+
+fib(10)
+
+# Gamma Function
+#rintegrate x^(t-1)*e^-x 0 1000000
+
+# Error function, Gassian Bell Curve function
+#rintegrate e^-(x^2) -100000 100000
+
+#rintegrate 1/x 1 e
